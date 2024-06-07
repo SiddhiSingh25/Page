@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+<body>
+      <form class="main">
+        <div class="head-section">
+          <h1><u>Front Page Generator</u></h1>
+      </div>
+        <div class="page">
+            <div class="wrapper1 wrapper" id="wrapper1">
+                <div class="select-btn1 select-btn" id="select-btn1">
+                    <span class="alpha1">Select College</span>
+                    <i class="uil uil-angle-down"></i>
+                  </div>
+                  <div class="content1 content" id="content1">
+                    <div class="search1 search" id="search1">
+                      <input class="input1" id="input1" spellcheck="false" type="text" placeholder="Search College">
+                    </div>
+                    <ul class="options1 options" id="options1"></ul>
+                  </div>
+            </div>
+            <div class="wrapper" id="wrapper">
+                <div class="select-btn" id="select-btn">
+                    <span class="alpha">Select Branch</span>
+                    <i class="uil uil-angle-down"></i>
+                  </div>
+                  <div class="content" id ="content">
+                    <div class="search" id="search">
+                      <input id="input" class="input" spellcheck="false" type="text" placeholder="Search Branch">
+                    </div>
+                    <ul class="options" id="options"></ul>
+                  </div>
+                </div>
+            <select name="session" id="session" required>
+                <option value="select">Select Session</option>
+                <option value="2022-23">2022-23</option>
+                <option value="2023-24">2023-24</option>
+                <option value="2024-25">2024-25</option>
+                <option value="2025-26">2025-26</option>
+                <option value="2026-27">2026-27</option>
+                <option value="2027-28">2027-28</option>
+                <option value="2028-29">2028-29</option>
+                <option value="2029-30">2029-30</option>
+            </select>
+<!--Exxx>-->
+
+            <select name="yearSem" id="yearSem" required>
+              <option value="1-1">1st Year - 1st Semester</option>
+              <option value="1-2">1st Year - 2nd Semester</option>
+              <option value="2-3">2nd Year - 3rd Semester</option>
+              <option value="2-4">2nd Year - 4th Semester</option>
+              <option value="3-5">3rd Year - 5th Semester</option>
+              <option value="3-6">3rd Year - 6th Semester</option>
+            </select>
+            
+            <input type="text" id="subject" placeholder="Enter Subject Name" class="inputCommon" required/>
+            <input type="text" id="teacher" placeholder="Enter Teacher Name" class="inputCommon" required/>
+            <input type="text" id="name" placeholder="Enter Your Name" class="inputCommon" required/>
+            <input type="submit" value="Generate Front Page" class="submit-button" required>
+        </div>
+      </form>
+    <script src="script.js"></script>
+</body>
+</html>
