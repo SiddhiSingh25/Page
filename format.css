@@ -1,0 +1,152 @@
+/* Base styles for A4 document */
+.FrontPage {
+    width: 793px; /* A4 width in pixels */
+    height: 1122px; /* A4 height in pixels */
+    background-color: #fff;
+    color: #111;
+    text-align: center;
+    padding: 3vw 0;
+    position: relative;
+    border: 6px solid #000000;
+    box-sizing: border-box;
+}
+#college {
+    font-size: 3.2vw;
+    color: #496BA7;
+    font-family: 'PT Serif', serif;
+    margin-bottom: 1.5vw;
+}
+#logo {
+    height: 44vh;
+    margin-bottom: 2vw;
+}
+img {
+    object-fit: contain;
+    object-position: center;
+}
+#session {
+    font-family: 'PT Serif', serif;
+    font-size: 2vw;
+    margin-bottom: 1vw;
+}
+#subject {
+    font-family: 'PT Serif', serif;
+    font-size: 3vw;
+    color: #496BA7;
+    margin-bottom: 2.2vw;
+}
+#branch {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 2.2vw;
+    color: #FF2D2D;
+}
+#yearSem {
+    font-size: 2.2vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #FF2D2D;
+}
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2vw;
+    margin-top: 10vw;
+}
+.left {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 19vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+.right {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 19vh;
+    justify-content: flex-start;
+    gap: 0.1vw;
+}
+.bottom h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5vw;
+}
+/* buttons */
+.formatbtn {
+    margin-top: 10px;
+}
+.btn {
+    font-family: "Poppins", sans-serif;
+    background-color: transparent;
+    cursor: pointer;
+    color: #1c3d5a;
+    margin-top: 0.75rem;
+    margin-bottom: 2rem;
+    font-size: large;
+    font-weight: 600;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: 1px solid #3b82f6;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+.btn:hover {
+    background-color: #3b82f6;
+    color: #ffffff;
+    border-color: transparent;
+}
+.btn i {
+    margin-right: 0.25rem;
+    font-size: 1.2rem;
+}
+/* Media query for phones */
+@media (max-width: 600px) {
+    .FrontPage {
+        width: 100%;
+        height: auto;
+        padding: 5vw 0;
+        border-width: 4px;
+    }
+    #college {
+        font-size: 6vw;
+        margin-bottom: 3vw;
+    }
+    #logo {
+        height: 30vh;
+        margin-bottom: 4vw;
+    }
+    #session {
+        font-size: 4vw;
+        margin-bottom: 2vw;
+    }
+    #subject {
+        font-size: 5vw;
+        margin-bottom: 4vw;
+    }
+    #branch, #yearSem {
+        font-size: 4.5vw;
+    }
+    .bottom {
+        flex-direction: column;
+        margin-top: 20vw;
+        padding: 0 5vw;
+    }
+    .left, .right {
+        height: auto;
+        align-items: center;
+    }
+    .bottom h1 {
+        font-size: 4vw;
+    }
+    .btn {
+        font-size: medium;
+        padding: 0.75rem 1.5rem;
+    }
+}
