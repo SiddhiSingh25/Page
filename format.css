@@ -1,4 +1,14 @@
 /* Base styles for A4 document */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
 .FrontPage {
     width: 793px; /* A4 width in pixels */
     height: 1122px; /* A4 height in pixels */
