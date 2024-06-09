@@ -134,7 +134,6 @@ img {
         font-size: 4.5vw;
     }
     .bottom {
-        flex-direction: column;
         margin-top: 20vw;
         padding: 0 5vw;
     }
