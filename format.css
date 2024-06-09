@@ -9,26 +9,27 @@ body{
     height: 100%;
     width: 100%;
 }
+/* Base styles for A4 document in pixels */
 .FrontPage {
-    width: 793px; /* A4 width in pixels */
+    width: 794px; /* A4 width in pixels */
     height: 1122px; /* A4 height in pixels */
     background-color: #fff;
     color: #111;
     text-align: center;
-    padding: 3vw 0;
+    padding: 24px 0; /* Approx 3vw converted to px */
     position: relative;
     border: 6px solid #000000;
     box-sizing: border-box;
 }
 #college {
-    font-size: 3.2vw;
+    font-size: 25px; /* Approx 3.2vw converted to px */
     color: #496BA7;
     font-family: 'PT Serif', serif;
-    margin-bottom: 1.5vw;
+    margin-bottom: 12px; /* Approx 1.5vw converted to px */
 }
 #logo {
-    height: 44vh;
-    margin-bottom: 2vw;
+    height: 493px; /* Approx 44vh converted to px */
+    margin-bottom: 16px; /* Approx 2vw converted to px */
 }
 img {
     object-fit: contain;
@@ -36,23 +37,23 @@ img {
 }
 #session {
     font-family: 'PT Serif', serif;
-    font-size: 2vw;
-    margin-bottom: 1vw;
+    font-size: 16px; /* Approx 2vw converted to px */
+    margin-bottom: 8px; /* Approx 1vw converted to px */
 }
 #subject {
     font-family: 'PT Serif', serif;
-    font-size: 3vw;
+    font-size: 24px; /* Approx 3vw converted to px */
     color: #496BA7;
-    margin-bottom: 2.2vw;
+    margin-bottom: 18px; /* Approx 2.2vw converted to px */
 }
 #branch {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 2.2vw;
+    font-size: 17px; /* Approx 2.2vw converted to px */
     color: #FF2D2D;
 }
 #yearSem {
-    font-size: 2.2vw;
+    font-size: 17px; /* Approx 2.2vw converted to px */
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: #FF2D2D;
@@ -61,14 +62,14 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 2vw;
-    margin-top: 10vw;
+    padding: 0 16px; /* Approx 2vw converted to px */
+    margin-top: 80px; /* Approx 10vw converted to px */
 }
 .left {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    height: 19vh;
+    height: 213px; /* Approx 19vh converted to px */
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
 }
@@ -76,15 +77,15 @@ img {
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 19vh;
+    height: 213px; /* Approx 19vh converted to px */
     justify-content: flex-start;
-    gap: 0.1vw;
+    gap: 1px; /* Approx 0.1vw converted to px */
 }
 .bottom h1 {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 1.5vw;
+    font-size: 12px; /* Approx 1.5vw converted to px */
 }
 /* buttons */
 .formatbtn {
@@ -121,38 +122,39 @@ img {
     .FrontPage {
         width: 100%;
         height: auto;
-        padding: 5vw 0;
+        padding: 40px 0; /* Approx 5vw converted to px */
         border-width: 4px;
     }
     #college {
-        font-size: 6vw;
-        margin-bottom: 3vw;
+        font-size: 48px; /* Approx 6vw converted to px */
+        margin-bottom: 24px; /* Approx 3vw converted to px */
     }
     #logo {
-        height: 30vh;
-        margin-bottom: 4vw;
+        height: 336px; /* Approx 30vh converted to px */
+        margin-bottom: 32px; /* Approx 4vw converted to px */
     }
     #session {
-        font-size: 4vw;
-        margin-bottom: 2vw;
+        font-size: 32px; /* Approx 4vw converted to px */
+        margin-bottom: 16px; /* Approx 2vw converted to px */
     }
     #subject {
-        font-size: 5vw;
-        margin-bottom: 4vw;
+        font-size: 40px; /* Approx 5vw converted to px */
+        margin-bottom: 32px; /* Approx 4vw converted to px */
     }
     #branch, #yearSem {
-        font-size: 4.5vw;
+        font-size: 36px; /* Approx 4.5vw converted to px */
     }
     .bottom {
-        margin-top: 20vw;
-        padding: 0 5vw;
+        flex-direction: column;
+        margin-top: 160px; /* Approx 20vw converted to px */
+        padding: 0 40px; /* Approx 5vw converted to px */
     }
     .left, .right {
         height: auto;
         align-items: center;
     }
     .bottom h1 {
-        font-size: 4vw;
+        font-size: 32px; /* Approx 4vw converted to px */
     }
     .btn {
         font-size: medium;
